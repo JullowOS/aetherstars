@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aetherstars - Game Launcher</title>
+  <meta name="description" content="An indie game launcher and distribution platform built around Godot, creators of every size, and player privacy. No ads. No tracking.">
+  <meta name="theme-color" content="#181818">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <canvas class="stars" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <a href="/" class="brand">Aetherstars</a>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <img class="logo-mark" src="assets/logo/aetherstars-logo.png" alt="">
+
+      <h1>Aetherstars</h1>
+      <p class="play-brighter">Play Brighter</p>
+
+      <p class="hero-accent">Indie games. Without the noise.</p>
+      <p class="hero-desc">Discover and play games made with Godot, without ads, tracking, or the clutter of traditional app stores.</p>
+
+      <div class="hero-actions">
+        <button class="btn btn-primary trigger-soon" type="button">
+          <span class="ficon ficon--download" aria-hidden="true"></span>
+          Download Launcher
+        </button>
+        <button class="btn btn-secondary trigger-soon" type="button">Submit your game</button>
+      </div>
+    </section>
+
+    <section class="about">
+      <h2>Games, on your terms.</h2>
+      <p>Aetherstars is a game launcher and distribution platform built around independent games and the people who make them.</p>
+      <p>Every game on Aetherstars is made with Godot. No ads. No tracking. No algorithm deciding what deserves your attention.</p>
+    </section>
+
+    <section class="features-wrap">
+      <div class="features">
+
+        <article class="card">
+          <div class="card-head">
+            <span class="ficon ficon--privacy" aria-hidden="true"></span>
+            <h3>Privacy</h3>
+          </div>
+          <p>Your account and play data stay private, without advertising networks or unnecessary data collection.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <span class="ficon ficon--rocket" aria-hidden="true"></span>
+            <h3>Fast</h3>
+          </div>
+          <p>Lightweight downloads and simple installation get you from the library to your game with less waiting.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <span class="ficon ficon--game" aria-hidden="true"></span>
+            <h3>Library</h3>
+          </div>
+          <p>Discover games from independent creators without fighting through a crowded store or endless recommendations.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <span class="ficon ficon--gear" aria-hidden="true"></span>
+            <h3>Godot</h3>
+          </div>
+          <p>Every game on Aetherstars is made with Godot, an open-source engine that gives creators more freedom to build their games their way.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="why">
+      <h2>Why Godot?</h2>
+      <p>Godot is open source. Its code is available to everyone, its development is community-driven, and creators aren't tied to a proprietary engine to bring their games to players.</p>
+    </section>
+
+    <section class="cta">
+      <div class="cta-card">
+        <h2>Made a Godot game?</h2>
+        <p class="cta-sub">Put it on Aetherstars.</p>
+        <p>Upload your game, submit your build, and reach players through a platform built specifically for Godot games.</p>
+        <p>You stay in control of your releases. We handle the review.</p>
+        <button class="btn btn-primary trigger-soon" type="button">
+          Become a Studio
+          <span class="ficon ficon--next" aria-hidden="true"></span>
+        </button>
+        <a href="legal/agreement/" class="cta-link">Read developer agreement</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-brand">Aetherstars</p>
+      <p class="footer-tagline">An indie game launcher and distribution platform built around Godot, creators of every size, and player privacy.</p>
+
+      <nav class="footer-cols" aria-label="Footer">
+        <div class="footer-col">
+          <h2>Aetherstars</h2>
+          <button type="button" class="footer-btn trigger-soon">Download Launcher</button>
+          <button type="button" class="footer-btn trigger-soon">Become a Studio</button>
+          <a href="https://stargurls.com" target="_blank" rel="noopener">Stargurls Games</a>
+        </div>
+        <div class="footer-col">
+          <h2>Legal</h2>
+          <a href="https://jullow.com/legal/privacy" target="_blank" rel="noopener">Privacy Policy</a>
+          <a href="https://jullow.com/legal/terms" target="_blank" rel="noopener">Terms of Use</a>
+          <a href="https://jullow.com/legal/cookie" target="_blank" rel="noopener">Cookie Policy</a>
+          <a href="legal/agreement/">Developer Agreement</a>
+        </div>
+        <div class="footer-col">
+          <h2>More</h2>
+          <a href="mailto:info@aetherstars.com">Contact Us</a>
+          <a href="about/">About Us</a>
+        </div>
+      </nav>
+
+      <p class="footer-bottom">&copy; <span data-year>2026</span> Aetherstars. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div class="notice" role="status" aria-live="polite" hidden>
+    <button type="button" class="notice-close" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <p>We're getting ready to launch, stay tuned!</p>
+    <button type="button" class="notice-ok">Got it</button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
