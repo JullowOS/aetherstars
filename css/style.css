@@ -349,10 +349,12 @@ h1, h2, h3, .brand, .footer-brand {
   font-size: clamp(1.85rem, 6vw, 2.6rem);
   font-weight: 700;
   margin-bottom: 10px;
+  text-align: center;
 }
 .legal-date {
   color: var(--muted);
   margin-bottom: 36px;
+  text-align: center;
 }
 .tldr {
   background: var(--card);
